@@ -1,0 +1,24 @@
+{
+  "name": "vuejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugodutra/vuejs-test.git"
+  },
+  "author": "Mongeral Aegon (www.mongeralaegon.com.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugodutra/vuejs-test/issues"
+  },
+  "homepage": "https://github.com/hugodutra/vuejs-test#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0"
+  }
+}

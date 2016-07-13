@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js</title>
+</head>
+<body id="app">
+    <h1>Vue</h1>
+    
+    <a v-link="{ path: 'chablau' }">Chablau</a>
+    <a v-link="{ path: 'tananina' }">Tananina</a>        
+
+    <router-view></router-view>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/0.7.10/vue-router.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
